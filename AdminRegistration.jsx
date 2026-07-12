@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import "./admin.css"
-const AdminRegistration = () => {
-
+const FlipAuthCard = () => {
   const [isSignIn, setIsSignIn] = useState(false);
 
   const toggleForm = () => {
@@ -44,5 +43,4 @@ const AdminRegistration = () => {
   </div>
   )
 }
-
-export default AdminRegistration
+export default FlipAuthCard;
